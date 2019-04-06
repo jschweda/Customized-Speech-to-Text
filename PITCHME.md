@@ -277,5 +277,5 @@ Jan Schweda
 @snapend
 
 
-+++?image=logo.png&size=50%
++++?image=logo_color.png&size=50%
 
