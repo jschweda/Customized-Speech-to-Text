@@ -15,20 +15,20 @@ Jan Schweda
 +++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
 @title[Agenda]
 
-@snap[west span-45]
+@snap[west span-40]
 # Agenda
 @snapend
 
 @snap[north-east span-60 fragment]
-@box[bg-green text-white box-narrow-padding](Warum?#Warum sollte Inklusion ein Thema für mich sein?)
+@box[bg-blue text-white box-narrow-padding](Warum?#Warum sollte Inklusion ein Thema für mich sein?)
 @snapend
 
 @snap[east span-60 fragment]
-@box[bg-green text-white box-narrow-padding](Wie?#Verstanden! Aber wie fange ich an?)
+@box[bg-blue text-white box-narrow-padding](Wie?#Verstanden! Aber wie fange ich an?)
 @snapend
 
 @snap[south-east span-60 fragment]
-@box[bg-green text-white box-narrow-padding](Und dann?#Ok, ganz nett. Aber wie geht es weiter?)
+@box[bg-blue text-white box-narrow-padding](Und dann?#Ok, ganz nett. Aber wie geht es weiter?)
 @snapend
 
 ---?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
@@ -86,7 +86,7 @@ Jan Schweda
 
 @ul
 - Nebengeräusche 
-  - Auto 
+  - Landwirtschaft 
   - Werkstatt
 - Spezielle Aussprache
 @ulend
