@@ -146,28 +146,15 @@ Jan Schweda
 ### Aufnehmen 
 @snapend
 
-@snap[west span-30 bg-green]
-Datei Format<br>
-Sampling Rate	<br>
-Kanäle<br>
-Sample Format<br>
-File Dauer<br>
-Zip<br>
-@snapend
-
-@snap[east span-60]
-RIFF (WAV)<br>
-8,000 Hz / 16,000 Hz<br>
-1<br>
-PCM, 16-bit int<br>
-0.1 Sec < Dauer < 12 Sec<br>
-2 GB Max.<br>
-@snapend
-
-@snap[south span-90]
-Hintergrundgeräusche @fa[arrow-right] Zeit ohne Sprache<br>
-[Weiterlesen...](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/prepare-transcription#other-languages)
-@snapende
+@ul[square-bullets](false)
+- Dateiformat           @fa[arrow-right] RIFF (WAV)
+- Sampling Rate         @fa[arrow-right] 8,000 Hz / 16,000 Hz
+- Kanäle                @fa[arrow-right] 1
+- Sample Format         @fa[arrow-right] PCM, 16-bit int
+- File Dauer            @fa[arrow-right] 0.1 Sec - 12 Sec
+- Zip                   @fa[arrow-right] 2 GB Max.
+- Hintergrundgeräusche  @fa[arrow-right] Zeit ohne Sprache aufnehmen
+@ulend
 
 +++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
 @title[Recording Tools]
@@ -176,6 +163,7 @@ Hintergrundgeräusche @fa[arrow-right] Zeit ohne Sprache<br>
 @snapend
 
 @ul
+- Diktiergerät
 - 3rd Party Tools
   - Online
   - [Audacity](https://sourceforge.net/projects/audacity/)
@@ -201,6 +189,11 @@ Hintergrundgeräusche @fa[arrow-right] Zeit ohne Sprache<br>
 - Normalisiert
 @ulend
 
+@snap[south span-90]
+[Weiterlesen...](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/prepare-transcription#other-languages)
+@snapende
+
+
 +++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
 @snap[north-west]
 ### Pflege
@@ -211,6 +204,8 @@ Hintergrundgeräusche @fa[arrow-right] Zeit ohne Sprache<br>
 - [CRIS Portal](cris.ai)
 - Import Acoustic Dataset
 - Create Acoustic Model
+- Test Model
+- Publish Model
 @olend
 ---?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
 
@@ -230,14 +225,15 @@ Hintergrundgeräusche @fa[arrow-right] Zeit ohne Sprache<br>
 @snap[north-west]
 ### API 
 @snapend
+![](swagger.png)
 [Swagger](https://westus.cris.ai/swagger/ui/index#/Custom%20Speech%20models%3A)
 +++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
 @title[Integration]
 @snap[north-west]
 ### Integration 
 @snapend
-[Google Device API](https://developers.google.com/assistant/sdk/)
-[Alexa API](https://developer.amazon.com/de/docs/alexa-voice-service/api-overview.html)
+[Google Device API](https://developers.google.com/assistant/sdk/)<br>
+[Alexa API](https://developer.amazon.com/de/docs/alexa-voice-service/api-overview.html)<br>
 Eigene Dienste
 +++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
 @title[Linguistische Modelle]
