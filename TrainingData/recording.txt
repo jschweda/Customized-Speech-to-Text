@@ -1,0 +1,4 @@
+﻿recording001.wav	Wer reitet so spät durch Nacht und Wind?
+recording002.wav	Es ist der Vater mit seinem Kind;
+recording003.wav	Er hat den Knaben wohl in dem Arm,
+recording004.wav	Er fasst ihn sicher, er hält ihn warm.
