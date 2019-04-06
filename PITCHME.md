@@ -92,6 +92,13 @@ Jan Schweda
 @ulend
 
 +++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
+@title[Demo]
+@snap[midpoint]
+## Demo
+#### So kann es aussehen
+@snapend
+
++++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
 @title[Eigenes akustisches Modell]
 @snap[north-west]
 ### Warum CRIS 
@@ -114,7 +121,7 @@ Jan Schweda
 +++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
 @title[Workflow]
 @snap[north-west span-40]
-@box[bg-orange text-white box-wide-padding rounded](Aufnehmen @fa[arrows-h] Beschreiben)
+@box[bg-orange text-white box-wide-padding rounded](Aufnehmen @fa[arrows-h] Transkribieren)
 @snapend
 
 @snap[north-east span-40]
@@ -134,69 +141,84 @@ Jan Schweda
 @snapend
 
 +++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
-## Demo
+@title[Aufnehmen]
+@snap[north-west]
+### Aufnehmen 
+@snapend
+
+@snap[west span-30 bg-green]
+Datei Format<br>
+Sampling Rate	<br>
+Kanäle<br>
+Sample Format<br>
+File Dauer<br>
+Zip<br>
+@snapend
+
+@snap[east span-60]
+RIFF (WAV)<br>
+8,000 Hz / 16,000 Hz<br>
+1<br>
+PCM, 16-bit int<br>
+0.1 Sec < Dauer < 12 Sec<br>
+2 GB Max.<br>
+@snapend
+
+@snap[south span-90]
+Hintergrundgeräusche @fa[arrow-right] Zeit ohne Sprache<br>
+[Weiterlesen...](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/prepare-transcription#other-languages)
+@snapende
 
 +++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
+@title[Recording Tools]
+@snap[north-west]
+### Recording Tools
+@snapend
 
-### Recording
-@title[Recording]
-
-[CRIS](cris.ai)
-
-@ol
-- Kommerzielle Tools
-  - online
+@ul
+- 3rd Party Tools
+  - Online
   - [Audacity](https://sourceforge.net/projects/audacity/)
 - Eigener Code
-@endol
-
-
-Technische Anforderungen
-WAV (RIFF) 
- sampling rate of 8 KHz or 16 KHz, and the sample values should be stored as uncompressed, pulse-code modulation (PCM) 16-bit signed integers (shorts).
-Only single-channel (mono) audio files are supported.
-The audio files can be between 100 microseconds and 1 minute in length, although ideally they should be around 10-12 seconds. Each audio file should ideally start and end with at least 100 microseconds of silence, and somewhere between 500 microseconds and 1 second is common.
-If you have background noise in your data, we recommend that you also have some examples with longer segments of silence in your data—for example, a few seconds—before and/or after the speech content.
-Each audio file should consist of a single utterance—for example, a single sentence for dictation, a single query, or a single turn of a dialog system.
-Each audio file in the dataset should have a unique file name and a .wav extension.
-The set of audio files should be placed in a single folder without subdirectories, and the entire set of audio files should be packaged as a single .zip-file archive.
-
-Transcriptions for the audio dataset
-The transcriptions for all WAV files should be contained in a single plain-text file. Each line of the transcription file should contain the name of one of the audio files, followed by the corresponding transcription. The file name and transcription should be separated by a tab (\t).
-
-
-Transcription should be encoded as UTF-8 byte order mark (BOM).
-
-The transcriptions are text-normalized so they can be processed by the system. However, there are some important normalizations that must be done by the user prior to uploading the data to the Custom Speech Service. For the appropriate language to use when you prepare your transcriptions, see Transcription guidelines for using the Speech Service.
-
-Property	Value
-File Format	RIFF (WAV)
-Sampling Rate	8,000 Hertz (Hz) or 16,000 Hz
-Channels	1 (mono)
-Sample Format	PCM, 16-bit integers
-File Duration	0.1 seconds < duration < 12 seconds
-Silence Collar	> 0.1 seconds
-Archive Format	.zip
-Maximum Archive Size	2 GB
-
-
-
-[Weiterlesen...](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/prepare-transcription#other-languages)
+@ulend
 
 +++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
+@title[Demo]
+@snap[midpoint]
+## Demo
+#### Recording
+@snapend
 
-## Pflege
++++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
+@snap[north-west]
+### Transkription
+@snapend
+@ul
+- Eine Text Datei
+- Eine Zeile je Datei
+- ```Filename \t Transkription```
+- UTF-8 + BOM
+- Normalisiert
+@ulend
+
++++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
+@snap[north-west]
+### Pflege
+@snapend
 @title[Pflege]
 
-[CRIS](cris.ai)
+@ol
+- [CRIS Portal](cris.ai)
+- Import Acoustic Dataset
+- Create Acoustic Model
+@olend
+---?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
 
-Data imports via the web portal are currently limited to 2 GB, so this is the maximum size of an acoustic dataset. This size corresponds to approximately 17 hours of audio that's recorded at 16 KHz or 34 hours of audio that's recorded at 8 KHz. The main requirements for the audio data are summarized in the following table:
-
-acoustic models to choose from:
-
-The Microsoft Search and Dictation AM model is appropriate for speech that's directed at an application, such as commands, search queries, or dictation.
-The Microsoft Conversational Model is appropriate for recognizing speech that's spoken in a conversational style. This type of speech is usually directed at another person and occurs in a call center or meetings.
-Latency for partial results in Conversational models is higher than in Search and Dictation models.
+@title[Demo]
+@snap[midpoint]
+## Demo
+#### Upload Data & Train the model
+@snapend
 
 ---?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
 @snap[center]
@@ -208,33 +230,52 @@ Latency for partial results in Conversational models is higher than in Search an
 @snap[north-west]
 ### API 
 @snapend
-
+[Swagger](https://westus.cris.ai/swagger/ui/index#/Custom%20Speech%20models%3A)
 +++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
 @title[Integration]
 @snap[north-west]
 ### Integration 
 @snapend
-
+[Google Device API](https://developers.google.com/assistant/sdk/)
+[Alexa API](https://developer.amazon.com/de/docs/alexa-voice-service/api-overview.html)
+Eigene Dienste
 +++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
 @title[Linguistische Modelle]
 @snap[north-west]
 ### Linguistische Modelle 
 @snapend
 
+@snap[east span-55]
+@quote[Dank unserer CI Pipeline können wir nightly delivern.](Jeder ALM / DevOps Engineer immer)
+@snapend
+
+@snap[south-west span-65]
+@quote[Ein Plattenepithelkarzinom könnte es erklären.](Dr. Foreman)
+@snapend
+
+
 @snap[south]
-[docu](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/how-to-customize-language-model)
+[Weiterlesen](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/how-to-customize-language-model)
 @snapend
 +++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
 @title[Fragen]
-@snap[north-west]
-### Fragen 
+@snap[midpoint]
+## Fragen    Anmerkungen   Diskussion
 @snapend
 
 +++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
 @title[Danke]
-@snap[north-west]
-### Danke 
+@snap[midpoint]
+## Danke!
 @snapend
+@snap[south-west span-60]
+Jan Schweda
+@snapend
+
+@snap[south-east span-60]
+@jschweda
+@snapend
+
 
 +++?image=logo.png&size=50%
 
