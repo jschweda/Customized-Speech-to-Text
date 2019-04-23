@@ -1,2 +1,2 @@
-﻿Besonderheiten im Miteinander werden im Ideenparkplatz gespeichert.
-speech02.wav	Wer reitet so spät durch Nacht und Wind? Es ist der Vater mit seinem Kind;
+﻿speech01.wav	Besonderheiten im Miteinander werden im Ideenparkplatz gespeichert
+speech02.wav	Wer reitet so spät durch Nacht und Wind Es ist der Vater mit seinem Kind

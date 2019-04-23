@@ -58,6 +58,7 @@ Jan Schweda
 - Audiogen bedingte Sprechstörungen
 - Menschen mit starkem Dialekt
 - Kinder
+- Menschen mit Spastik
 @ulend
 
 +++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
