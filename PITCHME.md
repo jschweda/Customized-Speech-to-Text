@@ -1,4 +1,4 @@
----?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
+---?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @title[Auf den Mund geschaut…]
 
 ## Auf den Mund geschaut…
@@ -12,7 +12,7 @@ Jan Schweda
 @jschweda
 @snapend
 
-+++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
++++?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @title[Agenda]
 
 @snap[west span-40]
@@ -31,14 +31,14 @@ Jan Schweda
 @box[bg-blue text-white box-narrow-padding](Und dann?#Ok, ganz nett. Aber wie geht es weiter?)
 @snapend
 
----?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
+---?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 
 @title[Warum]
 @snap[center]
 # Warum?
 @snapend
 
-+++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
++++?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @title[Was zum schmunzeln]
 @snap[north-west]
 ### Was zum schmunzeln
@@ -46,7 +46,7 @@ Jan Schweda
 
 <iframe width="900" height="500" src="https://www.youtube.com/embed/IKZToY-V16w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-+++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
++++?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @title[Wer braucht das?]
 @snap[north-west]
 ### Wer braucht das?
@@ -61,7 +61,7 @@ Jan Schweda
 - Menschen mit Spastik
 @ulend
 
-+++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
++++?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @title[Conversational UI]
 @snap[north-west]
 ### Conversational UI
@@ -74,12 +74,12 @@ Jan Schweda
 - Wie wird Mobility as a Service funktionieren?
 @ulend
 
----?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
+---?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @snap[center]
 # Wie?
 @snapend
 
-+++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
++++?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @title[custom acoustic Model]
 @snap[north-west]
 ### *custom acoustic Model* 
@@ -92,14 +92,14 @@ Jan Schweda
 - Spezielle Aussprache
 @ulend
 
-+++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
++++?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @title[Demo]
 @snap[midpoint]
 ## Demo
 #### So kann es aussehen
 @snapend
 
-+++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
++++?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @title[Eigenes akustisches Modell]
 @snap[north-west]
 ### Warum CRIS 
@@ -119,7 +119,7 @@ Jan Schweda
 [Weiterlesen](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/how-to-customize-acoustic-models)
 @snapend
 
-+++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
++++?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @title[Workflow]
 @snap[north-west span-40]
 @box[bg-orange text-white box-wide-padding rounded](Aufnehmen @fa[arrows-h] Transkribieren)
@@ -141,7 +141,7 @@ Jan Schweda
 @fa[refresh fa-3x]
 @snapend
 
-+++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
++++?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @title[Aufnehmen]
 @snap[north-west]
 ### Aufnehmen 
@@ -157,7 +157,7 @@ Jan Schweda
 - Hintergrundgeräusche  @fa[arrow-right] Zeit ohne Sprache aufnehmen
 @ulend
 
-+++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
++++?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @title[Recording Tools]
 @snap[north-west]
 ### Recording Tools
@@ -171,14 +171,14 @@ Jan Schweda
 - Eigener Code
 @ulend
 
-+++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
++++?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @title[Demo]
 @snap[midpoint]
 ## Demo
 #### Recording
 @snapend
 
-+++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
++++?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @snap[north-west]
 ### Transkription
 @snapend
@@ -195,7 +195,7 @@ Jan Schweda
 @snapende
 
 
-+++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
++++?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @snap[north-west]
 ### Pflege
 @snapend
@@ -208,7 +208,7 @@ Jan Schweda
 - Test Model
 - Publish Model
 @olend
----?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
+---?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 
 @title[Demo]
 @snap[midpoint]
@@ -216,19 +216,19 @@ Jan Schweda
 #### Upload Data & Train the model
 @snapend
 
----?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
+---?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @snap[center]
 # Und dann?
 @snapend
 
-+++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
++++?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @title[API]
 @snap[north-west]
 ### API 
 @snapend
 ![](swagger.png)
 [Swagger](https://westus.cris.ai/swagger/ui/index#/Custom%20Speech%20models%3A)
-+++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
++++?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @title[Integration]
 @snap[north-west]
 ### Integration 
@@ -236,7 +236,7 @@ Jan Schweda
 [Google Device API](https://developers.google.com/assistant/sdk/)<br>
 [Alexa API](https://developer.amazon.com/de/docs/alexa-voice-service/api-overview.html)<br>
 Eigene Dienste
-+++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
++++?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @title[Linguistische Modelle]
 @snap[north-west]
 ### Linguistische Modelle 
@@ -254,13 +254,13 @@ Eigene Dienste
 @snap[south]
 [Weiterlesen](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/how-to-customize-language-model)
 @snapend
-+++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
++++?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @title[Fragen]
 @snap[midpoint]
 ## Fragen    Anmerkungen   Diskussion
 @snapend
 
-+++?color=#303030&image=logo.png&position=right 10px top 10px&size=5%
++++?color=#9b9b9b&image=logo.png&position=right 10px top 10px&size=5%
 @title[Danke]
 @snap[midpoint]
 ## Danke!
